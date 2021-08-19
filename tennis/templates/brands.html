@@ -1,0 +1,19 @@
+<h1>Please enter your favorite tennis brands:</h1>
+
+<form action="/addtennis/" method="post">{% csrf_token %}
+    <input type="text" name="content"/>
+    <input type="submit" value="AddBrand"/>
+</form>
+<!--
+<ul>
+    <li>first item</li>
+    <li>second item</li>
+    <li>third item</li>
+    <li>forth item</li>
+</ul>
+-->
+<!-- <ul>
+    {% for brand in all_items %}
+    <li>{{ brand.content }}</li>
+    {% endfor %}
+</ul> -->
