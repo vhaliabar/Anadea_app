@@ -20,10 +20,8 @@ from tennis.views import allRacketsView, addRasketView, resultView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('todo/', todoView),
-    path('addTodo/', addTodo),
-    path('tennis/', allRacketsView),
-    path('addtennis/', addRasketView),    
+    path('', allRacketsView),
+    path('addtennis/', addRasketView),
     path('final/', resultView),
 
 ]
